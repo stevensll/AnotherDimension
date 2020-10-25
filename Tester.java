@@ -15,6 +15,14 @@ public class Tester {
         System.out.println(ArrayOps.largest(negativesOnly));// 0
         System.out.println(ArrayOps.largest(positivesOnly));// 9
         */
+        /* tests for sumRows()
+        int[][] a2D = {{1, 0, 12, -1}, {7, -2, 2, 1}, {-5,-2,2,-9}};
+        int[][] b2D = {{},{},{},{}};
+        int[][] c2D = {{1},{2},{3}};
+        System.out.println(Arrays.toString(ArrayOps.sumRows(a2D))); // [12, 8, -14] 
+        System.out.println(Arrays.toString(ArrayOps.sumRows(b2D))); // [0, 0, 0, 0]
+        System.out.println(Arrays.toString(ArrayOps.sumRows(c2D))); // [1, 2, 3]
+        */
     }
 }
 
