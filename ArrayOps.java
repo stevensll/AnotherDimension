@@ -54,4 +54,12 @@ public class ArrayOps {
         }
         return samerows;
     }
+    public static boolean isColMagic(int[][] matrix) {
+        boolean samecols = true;
+        int [] a = sumCols(matrix);
+        for (int i = 0; i < a.length; i++){
+            if(a[i]!=a[0]) samecols = false;
+        }
+        return samecols;
+    }
 }

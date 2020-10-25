@@ -63,6 +63,14 @@ public class Tester {
         System.out.println(ArrayOps.isRowMagic(p2D)); //false
         System.out.println(ArrayOps.isRowMagic(q2D)); //true
         */
+        /* tests for isColsMagic()
+        int[][] r2D = {{1,2,3},{2,1,2},{3,3,1}};
+        int[][] s2D = {{1,1,1},{2,2,2},{3,3,3}};
+        int[][] t2D = {{1,2,3},{1,2,3},{1,2,3}}; 
+        System.out.println(ArrayOps.isColMagic(r2D)); //true
+        System.out.println(ArrayOps.isColMagic(s2D)); //true
+        System.out.println(ArrayOps.isColMagic(t2D)); //false
+        */
     }
 }
 
