@@ -41,6 +41,18 @@ public class Tester {
         System.out.println(ArrayOps.sum(i2D));  //[0]
         System.out.println(ArrayOps.sum(j));    //[9]
         */
+        /* tests for sumCols()
+        int[][] k2D = {{1, 0, 12,-1},  
+                       {7, -2, 2, 1 },
+                       {-5, -2, 2, -9}};
+        int[][] l2D = {{1,2,3,4},
+                       {5,6,7,8},
+                       {0,0,0,0}};
+        int[][] m2D= {{},{},{}};
+        System.out.println(Arrays.toString(ArrayOps.sumCols(k2D))); //[3, -4, 16, -9]
+        System.out.println(Arrays.toString(ArrayOps.sumCols(l2D))); //[6, 8, 10, 12] 
+        System.out.println(Arrays.toString(ArrayOps.sumCols(m2D))); //[]
+        */
     }
 }
 
