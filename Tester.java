@@ -71,6 +71,14 @@ public class Tester {
         System.out.println(ArrayOps.isColMagic(s2D)); //true
         System.out.println(ArrayOps.isColMagic(t2D)); //false
         */
+        /* tests for isLocationMagic
+        int[][] u2D ={{2,4,2},{2,2,2}};
+        int[][] v2D ={{1,2,1},{3,2,-1}};
+        System.out.println(ArrayOps.isLocationMagic(u2D, 0, 1)); //false
+        System.out.println(ArrayOps.isLocationMagic(u2D, 1, 1)); //true
+        System.out.println(ArrayOps.isLocationMagic(v2D, 0, 0)); //true
+        System.out.println(ArrayOps.isLocationMagic(v2D, 1, 1)); //true
+        */
     }
 }
 
