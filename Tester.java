@@ -53,6 +53,16 @@ public class Tester {
         System.out.println(Arrays.toString(ArrayOps.sumCols(l2D))); //[6, 8, 10, 12] 
         System.out.println(Arrays.toString(ArrayOps.sumCols(m2D))); //[]
         */
+        /* tests for isRowMagic()
+        int[][] n2D = {{1, 0, 12, -1}, {7, -2, 2, 1}, {-5,-2,2,-9}};
+        int[][] o2D = {{},{},{},{}};
+        int[][] p2D = {{1},{2},{3}};  
+        int[][] q2D = {{1,2,3,4},{2,3,4,1},{3,4,1,2}};
+        System.out.println(ArrayOps.isRowMagic(n2D)); //false
+        System.out.println(ArrayOps.isRowMagic(o2D)); //true
+        System.out.println(ArrayOps.isRowMagic(p2D)); //false
+        System.out.println(ArrayOps.isRowMagic(q2D)); //true
+        */
     }
 }
 
