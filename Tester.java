@@ -23,6 +23,14 @@ public class Tester {
         System.out.println(Arrays.toString(ArrayOps.sumRows(b2D))); // [0, 0, 0, 0]
         System.out.println(Arrays.toString(ArrayOps.sumRows(c2D))); // [1, 2, 3]
         */
+        /* tests for largestInRows()
+        int[][] d2D = {{1, 0, 12, -1}, {7, -2, 2, 1}, {-5,-2,2,-9}};
+        int[][] e2D = {{1},{2},{3}};
+        int[][] f2D = {{0},{0},{-1}};
+        System.out.println(Arrays.toString(ArrayOps.largestInRows(d2D)));  //[12, 7, 2]
+        System.out.println(Arrays.toString(ArrayOps.largestInRows(e2D)));  //[1, 2, 3]  
+        System.out.println(Arrays.toString(ArrayOps.largestInRows(f2D)));  //[0, 0, -1]
+        */
     }
 }
 
