@@ -31,6 +31,16 @@ public class Tester {
         System.out.println(Arrays.toString(ArrayOps.largestInRows(e2D)));  //[1, 2, 3]  
         System.out.println(Arrays.toString(ArrayOps.largestInRows(f2D)));  //[0, 0, -1]
         */
+        /* tests for sum() (2D array version)
+        int[][] g2D = {{1,0,12,-1},{7,-2,2,1},{-5,-2,2,-9}};
+        int[][] h2D = {{1},{3},{5}};
+        int[][] i2D = {{0},{0},{0}};
+        int[] j = {1,3,5}; // just to test if java can separate the two methods by params
+        System.out.println(ArrayOps.sum(g2D));  //[6]
+        System.out.println(ArrayOps.sum(h2D));  //[9]
+        System.out.println(ArrayOps.sum(i2D));  //[0]
+        System.out.println(ArrayOps.sum(j));    //[9]
+        */
     }
 }
 
