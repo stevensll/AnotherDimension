@@ -6,4 +6,12 @@ public class ArrayOps {
         }
         return sum;
     }
+    public static int largest(int[] arr) {
+        int largest = arr[0];
+        //assuming that arr is not empty
+        for (int i = 0; i < arr.length; i++) {
+            largest = Math.max(arr[i],largest);
+        }
+        return largest;
+    }
 }
