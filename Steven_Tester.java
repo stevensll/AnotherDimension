@@ -37,10 +37,10 @@ public class Steven_Tester {
         int[][] h2D = {{1},{3},{5}};
         int[][] i2D = {{0},{0},{0}};
         int[] j = {1,3,5}; // just to test if java can separate the two methods by params
-        System.out.println(ArrayOps.sum(g2D));  //[6]
-        System.out.println(ArrayOps.sum(h2D));  //[9]
-        System.out.println(ArrayOps.sum(i2D));  //[0]
-        System.out.println(ArrayOps.sum(j));    //[9]
+        System.out.println(ArrayOps.sum(g2D));  //6
+        System.out.println(ArrayOps.sum(h2D));  //9
+        System.out.println(ArrayOps.sum(i2D));  //0
+        System.out.println(ArrayOps.sum(j));    //9
         */
         /* tests for sumCols()
         int[][] k2D = {{1, 0, 12,-1},  
